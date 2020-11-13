@@ -44,7 +44,7 @@
                     <img class="card-img-top" src="imagenes/img-gen.png" alt="Hogar">
                     <div class="card-img-overlay">
                         <div class="card-body">
-                            <p class="card-title">Hogar</p>
+                            <p class="card-title">Combinado Familiar</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero aperiam earum accusamus porro beatae magnam incidunt atque facere</p>
                         </div>
                     </div>
