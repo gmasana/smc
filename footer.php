@@ -5,7 +5,8 @@
         <section>
             <a href="https://www.argetina.gob.ar/ssn" target="_blank" rel="noopener noreferrer">
                 <img class="d-block mx-auto img-fluid" style="width:300px;" src="imagenes/ssn.png" alt="SSN"> 
-            </a>    
+            </a>
+            <p class="text-center">SMC Asesores de Seguros | Nº Matrícula: 62054</p>    
         </section>
         <!--Redes sociales-->
         <div class="container">

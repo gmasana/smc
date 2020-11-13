@@ -86,9 +86,10 @@ h1.slogan{
 }
 .icon{
     font-size: 60px;
-    text-align: center;
-    /*width: 50%;*/
-    
+}
+.square{
+    height: 8em;
+    width: 8em;
 }
 .main_cont{
     display: flex;

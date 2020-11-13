@@ -68,7 +68,11 @@
     <div class="sec_cont">
         <div>
             <table class="aseguradoras">
-                <thead><tr><th colspan="4" class="tr_title">Nuestras Aseguradoras</th></tr></thead>
+                <thead>
+                    <tr>
+                        <th colspan="4" class="tr_title">Nuestras Aseguradoras</th>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr>
                         <td><img src="" alt="" ></td>
@@ -87,8 +91,8 @@
         </div>
         <div>
             <div class="container">
-                <div class="card bk-color-2" style="margin: 0 33%;">
-                    <p class="icon text-color-1" style="margin: 0;">+<span class="timer"></span></p>
+                <div class="card bk-color-2 square mx-auto d-block">
+                    <p class="icon text-center text-color-1 p-2 mt-3">+<span class="timer"></span></p>
                 </div>    
             </div>
             <p class="icon text-color-2">Compañías</p>
