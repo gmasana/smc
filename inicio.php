@@ -94,7 +94,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex flex-wrap justify-content-center">
             <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="BBVA" ></div>
             <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="HDI" ></div>
             <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="Allianz" ></div>
