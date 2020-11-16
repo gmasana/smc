@@ -14,14 +14,13 @@
     
     <!--Coberturas-->
     <section>
-        <div class="container-fluid pt-3 pb-3 cont_form">
+        <div class="container-fluid pt-3 pb-3 cont_form scroll-horizontal">
             <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="imagenes/img-gen.png" alt="Autos">
                     <div class="card-img-overlay">
                         <div class="card-body">
-                            <p class="card-title">Autos</p>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero aperiam earum accusamus porro beatae magnam incidunt atque facere</p>
+                            <p class="card-title text-center">Autos</p>
                         </div>
                     </div>
                 </div>
@@ -29,8 +28,7 @@
                     <img class="card-img-top" src="imagenes/img-gen.png" alt="ART">
                     <div class="card-img-overlay">
                         <div class="card-body">
-                            <p class="card-title">ART</p>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero aperiam earum accusamus porro beatae magnam incidunt atque facere</p>
+                            <p class="card-title text-center">ART</p>
                         </div>
                     </div>
                 </div>
@@ -38,8 +36,7 @@
                     <img class="card-img-top" src="imagenes/img-gen.png" alt="Hogar">
                     <div class="card-img-overlay">
                         <div class="card-body">
-                            <p class="card-title">Combinado Familiar</p>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero aperiam earum accusamus porro beatae magnam incidunt atque facere</p>
+                            <p class="card-title text-center">Combinado Familiar</p>
                         </div>
                     </div>
                 </div>
@@ -47,8 +44,15 @@
                     <img class="card-img-top" src="imagenes/img-gen.png" alt="Vida">
                     <div class="card-img-overlay">
                         <div class="card-body">
-                            <p class="card-title">Vida</p>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero aperiam earum accusamus porro beatae magnam incidunt atque facere</p>
+                            <p class="card-title text-center">Vida</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="imagenes/img-gen.png" alt="Vida">
+                    <div class="card-img-overlay">
+                        <div class="card-body">
+                            <p class="card-title text-center">Incendio</p>
                         </div>
                     </div>
                 </div>
@@ -56,7 +60,6 @@
         </div>
     </section>
     <!--Fin Coberturas-->
-    
     <div class="sec_cont">
         <div>
             <table class="aseguradoras">
@@ -84,11 +87,25 @@
         <div>
             <div class="container">
                 <div class="card bk-color-2 square mx-auto d-block">
-                    <p class="icon text-center text-color-1 p-2 mt-3">+<span class="timer"></span></p>
+                    <p class="icon text-center text-color-1 p-2 mt-2">+<span class="timer"></span></p>
                 </div>    
             </div>
-            <p class="icon text-color-2">Compañías</p>
+            <p class="icon text-color-2">Aseguradoras</p>
         </div>
     </div>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="BBVA" ></div>
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="HDI" ></div>
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="Allianz" ></div>
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="Mercantil Andina" ></div>
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="Meridional" ></div>
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="SURA" ></div>
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="Sancor" ></div>
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="Prevencion ART" ></div>
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="AsociART" ></div>
+            <div class="p-2 borderless text-color-2">Flex Item<img src="" alt="Experta" ></div>
+        </div>
+    </div>    
 </main>
 <!--Testimonios-->

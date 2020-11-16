@@ -115,7 +115,11 @@ h1.slogan{
 .main_cont{
     /*display: flex;
     flex-wrap: nowrap;*/
-    height: 500px;
+    background-image: url(../imagenes/portada.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 .cont_form{
     background-color: #ecf0f1;
@@ -167,12 +171,12 @@ input[type=submit]:hover{
 }
 .sec_cont{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     height: 300px;
 }
 .sec_cont > div {
     /*border: 2px solid #ecf0f1;*/
-    width: 50%;
+    width: 100%;
     margin: 40px;
     text-align: center;
     
@@ -196,30 +200,14 @@ td {
 }    
 
 /* SLIDESHOW de Coberturas*/
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-.next{
-    right: 0;
-}
-.prev:hover, .next:hover{
-    text-decoration:none;
-    color: #5986d9;
-    
+.scroll-horizontal {
+    overflow: auto;
+    white-space: nowrap;
 }
 /* FIN SLIDESHOW de Coberturas*/
 
 .mini-tx{
     font-size: 8px;
 }
+
     
