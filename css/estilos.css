@@ -1,7 +1,6 @@
 /* 
     Color institucional 1. #224a95 (azul) 
     Color institucional 2. #ecf0f1 (blanco)
-
 */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 *{
@@ -35,6 +34,7 @@ a.link:hover{
 .navlink li{
     display:inline-block;
     padding: 0 20px;
+    margin-top: 10px;
 }
 .navlink li a{
     transition: all 0.3s ease 0s; 
@@ -44,6 +44,30 @@ a.link:hover{
 .navlink li a:hover{
     color:rgba(34, 74, 149,0.5);
 }    
+.navlink .bars{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .navlink li a {display:none;}
+    .navlink li a.bars {
+       float: right;
+       display: block;
+    }
+}
+@media screen and (max-width: 576px) {
+    .navlink.responsive {position: relative;}
+    .navlink.responsive a.bars {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navlink.responsive { list-style: none;}
+    .navlink.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+  }
 .logo {
     width: 100px;  
 }
@@ -68,9 +92,6 @@ main{
 }
 h1.slogan{
     font-size: 60px;
-    text-align: center;
-    width: 50%;
-    color: #ecf0f1;
 }
 .err404 {
     background-image: url(../imagenes/fondo_azul.png);
@@ -92,21 +113,9 @@ h1.slogan{
     width: 8em;
 }
 .main_cont{
-    display: flex;
-    flex-wrap: nowrap;
-    height: 550px;
-}
-.main_cont > div {
-    /*border: 2px solid #ecf0f1;*/
-    width: 50%;
-    margin: 40px;
-    text-align: center;
-    
-}
-.center_slogan {
-    width:100%;
-    height:100%;
-    padding: 20% 0;
+    /*display: flex;
+    flex-wrap: nowrap;*/
+    height: 500px;
 }
 .cont_form{
     background-color: #ecf0f1;
@@ -115,7 +124,7 @@ h1.slogan{
 }
 .form_datos > input {
     display:inline-block;
-    width: 80%;
+    width: 100%;
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
@@ -209,4 +218,8 @@ td {
     
 }
 /* FIN SLIDESHOW de Coberturas*/
+
+.mini-tx{
+    font-size: 8px;
+}
     

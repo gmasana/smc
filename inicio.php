@@ -1,26 +1,20 @@
 <main>
-    <div class="main_cont">
-        <div>
-            <div class="center_slogan">
-                <h1 class="slogan">Productores Asesores de Seguros</h1>
-            </div>    
-        </div>   
-        <div class="cont_form">
-            <form action="" method="post" class="form_datos">
-                <p>Contactanos</p>
-                <input type="text" name="nom_ape" required placeholder="Nombre y Apellido" id="inputselected"><br>
-                <input type="email" name="mail" required placeholder="E-mail" required><br>
-                <input type="tel" name="telefono" required placeholder="Teléfono"><br>
-                <textarea name="comentarios" placeholder="Comentario" maxlength="250" cols="50" rows="5"></textarea>
-                <input type="submit" name="enviar" value="Enviar">
-            </form>
+    <div class="main_cont container-fluid">
+        <div class="container">
+            <h1 class="text-center text-color-2 pt-5 slogan d-block">Productores Asesores de Seguros</h1>
         </div>
-    </div>
+        <div class="container">
+            <p class="text-center">
+                <a href="./?page=contacto" class="btn mx-3 my-2 rounded bg-color-2 text-color-1">Quiero saber más</a>
+                <a href="./?page=siniestro" class="btn mx-3 my-2 rounded bg-color-2 text-color-1">Tuve un siniestro</a>
+            </p>        
+        </div>
+    </div>   
+
     
     <!--Coberturas-->
     <section>
         <div class="container-fluid pt-3 pb-3 cont_form">
-            <a class="prev text-color-1" onclick="plusSlides(-1)">&#10094;</a>
             <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="imagenes/img-gen.png" alt="Autos">
@@ -59,8 +53,6 @@
                     </div>
                 </div>
             </div>
-            
-            <a class="next text-color-1" onclick="plusSlides(1)">&#10095;</a>
         </div>
     </section>
     <!--Fin Coberturas-->

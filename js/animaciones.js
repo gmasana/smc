@@ -1,3 +1,14 @@
+//Open close navbar burger menu
+function openClose()
+{
+    var nav = document.getElementById("myNavBar");
+    if (nav.className === "navlink") {
+        nav.className += " responsive";
+      } else {
+        nav.className = "navlink";
+      }
+}
+
 //js + jquery 1.9.1 - funcion timer up
 
 (function($) {

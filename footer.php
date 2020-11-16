@@ -6,20 +6,18 @@
             <a href="https://www.argetina.gob.ar/ssn" target="_blank" rel="noopener noreferrer">
                 <img class="d-block mx-auto img-fluid" style="width:300px;" src="imagenes/ssn.png" alt="SSN"> 
             </a>
-            <p class="text-center">SMC Asesores de Seguros | Nº Matrícula: 62054</p>    
+            <p class="text-center text-color-1">SMC Asesores de Seguros | Nº Matrícula: 62054</p>    
         </section>
         <!--Redes sociales-->
         <div class="container">
-            <p class="text-center"><span class="text-color-1">Encontranos en Instagram</span> 
-                <span>
-                    <a href="https://www.instagram.com/asegurar.smc/" target="_blank">
-                        <img src="" alt="instagram">
-                    </a>
-                </span>
+            <p class="text-center text-color-1">
+                <a href="https://www.instagram.com/asegurar.smc/" class ="text-decoration-none" target="_blank">Encontranos en Instagram     
+                    <i class="fab fa-instagram"></i>
+                </a>
             </p>
         </div>
         
-        <p class="text-center">
+        <p class="text-center mini-tx">
             <a class="light text-decoration-none" href="#inicio">Volver al inicio</a>
         </p>
              
