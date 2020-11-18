@@ -93,6 +93,14 @@ main{
 h1.slogan{
     font-size: 60px;
 }
+.space{
+    height: 200px;
+}
+@media screen and (max-width: 576px){
+    h1.slogan {font-size: 50px;}
+    p.icon{font-size: 50px;}
+    .space {display: none;}
+}
 .err404 {
     background-image: url(../imagenes/fondo_azul.png);
     background-size: 100%;
@@ -174,13 +182,15 @@ input[type=submit]:hover{
     flex-wrap: wrap;
     height: auto;
 }
+/*
 .sec_cont > div {
-    /*border: 2px solid #ecf0f1;*/
+    border: 2px solid #ecf0f1; esta caract estaba comentada
     width: 100%;
     margin: 40px;
     text-align: center;
     
 }
+*/
 table {
     width:70%;
     margin: 0 15%;
