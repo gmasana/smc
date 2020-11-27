@@ -1,4 +1,4 @@
-<footer class="bk-color-2">
+<footer class="bg-color-2">
     <div class="container-fluid">
         <!--Número de matrícula-->
         <!--Logo de la superintendencia--> 
@@ -17,7 +17,7 @@
             </p>
         </div>
         
-        <p class="text-center mini-tx">
+        <p class="text-center mini-tx m-0">
             <a class="light text-decoration-none" href="#inicio">Volver al inicio</a>
         </p>
              

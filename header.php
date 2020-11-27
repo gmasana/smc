@@ -11,7 +11,7 @@
     
 </head>
 <body>
-    <header id="inicio">
+    <header class="bg-color-2" id="inicio">
         <img class="logo" src="imagenes/smc_logo.png" alt="smc_logo">
         <nav>
             <ul class="navlink" id="myNavBar">

@@ -130,14 +130,15 @@ h1.slogan{
     height: auto;
 }
 .cont_form{
+    margin: 0 10%;
     background-color: #ecf0f1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  
 }
-.form_datos > input {
-    display:inline-block;
-    width: 100%;
-    margin-bottom: 10px;
+.form_datos > input, .form_datos >select {
+    display: inline-block;
+    width: 80%;
+    margin: 0 10% 10px;
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     border-radius: 50px;
@@ -146,7 +147,7 @@ h1.slogan{
     border: 1px solid #224a95;
     transition: all 0.3s ease 0s; 
 }
-input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover{
+input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover, select:hover{
     border-color: rgba(34, 74, 149,0.5);   
 
 }
@@ -173,7 +174,7 @@ input[type=submit]:hover{
     border-radius: 12px;
     overflow: hidden;
     text-indent: 7px;
-    margin-bottom: 30px;
+    margin: 0 10% 30px;
     color: #224a95;
     border: 1px solid #224a95;
 }
