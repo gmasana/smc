@@ -15,7 +15,7 @@
     
     <!--Coberturas-->
     <section>
-        <div class="container-fluid pt-3 pb-3 cont_form scroll-horizontal">
+        <div class="container-fluid pt-3 pb-3 wt-shadowed scroll-horizontal">
             <div class="row">
                 <div class="col">
                     <div class="card">

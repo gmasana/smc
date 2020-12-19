@@ -26,7 +26,11 @@ a.link:hover{
     /*color:rgba(34, 74, 149,0.5);*/
     opacity: 0.5;
     text-decoration:none;
-}  
+} 
+.wt-shadowed{
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
 /* Start NavBar */
 .navlink{
     list-style: none;
@@ -124,10 +128,11 @@ h1.slogan{
     /*display: flex;
     flex-wrap: nowrap;*/
     background-image: url(../imagenes/portada.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: auto;
+    background-position: 50% 0;
 }
 .cont_form{
     margin: 0 10%;
