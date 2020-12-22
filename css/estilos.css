@@ -197,11 +197,12 @@ input[type=submit]:hover{
     
 }
 */
-table {
+.table-custom {
     width:70%;
     margin: 0 15%;
     color: #ecf0f1;
     height: 250px;
+
 }
 .tr_title {
     text-align: center;
@@ -218,8 +219,29 @@ td {
 /* SLIDESHOW de Coberturas*/
 .cobertura{
     background-image: url(../imagenes/img-gen.png);
-    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: whitesmoke;
+    border-radius: 12px;
+    font-weight: bold;
+
 }
+.auto,.vida,.hogar,.art{
+    background-size: cover;
+    background-position: 50% 0;
+}
+.auto{background-image:url(../imagenes/auto.jpg)}
+.vida{background-image:url(../imagenes/vida.jpg)}
+.hogar{background-image:url(../imagenes/hogar.jpg)}
+.art{background-image:url(../imagenes/art.jpg)}
+.slideshow-responsive{
+    height: 21vh;
+}
+.td-center{
+    vertical-align: middle !important;
+}
+
 /* FIN SLIDESHOW de Coberturas*/
 
 .mini-tx{

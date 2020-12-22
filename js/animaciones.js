@@ -8,7 +8,29 @@ function openClose()
         nav.className = "navlink";
       }
 }
-
+//Cambiar imagen de fondo según cobertura
+function coberturaFondo() {
+    var cobertura = document.getElementsByClassName("cobertura");
+    for (let i = 0; i < cobertura.length; i++) {
+        switch (cobertura[i].innerHTML) {
+            case Autos:
+                cobertura.className += " auto"
+                break;
+            case ART:
+                cobertura.className += " art"
+                break;
+            case Vida:
+               cobertura.className += " vida"
+                break;
+            case Hogar:
+                cobertura.className += " hogar"
+                break; 
+        }
+    }
+    
+}
+coberturaFondo();
+//
 //js + jquery 1.9.1 - funcion timer up
 
 (function($) {

@@ -15,9 +15,27 @@
     
     <!--Coberturas-->
     <section>
-        <div class="container-fluid pt-3 pb-3 wt-shadowed scroll-horizontal">
-            <div class="row">
-                <div class="col">
+        <div class="container-fluid pt-3 pb-3 wt-shadowed scroll-horizontal ">
+           <div class="table-responsive">
+               <table class="table m-0 table-borderless text-center slideshow-responsive">
+                    <tr>
+                        <td class="td-center">
+                            <div class="container py-5 cobertura text-color-2">Autos</div>
+                        </td>
+                        <td class="td-center">
+                            <div class="container py-5 cobertura text-color-2">ART</div>
+                        </td>
+                        <td class="td-center">
+                            <div class="container py-5 cobertura text-color-2">Hogar</div>
+                        </td>
+                        <td class="td-center">
+                            <div class="container py-5 cobertura text-color-2">Vida</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>        
+           <!-- <div class="row">
+                <div class="col-6">
                     <div class="card">
                         <img class="card-img-top" src="imagenes/img-gen.png" alt="Autos">
                         <div class="card-body">
@@ -25,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-6">
                     <div class="card">
                         <img class="card-img-top" src="imagenes/img-gen.png" alt="ART">
                         <div class="card-body">
@@ -33,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-6">
                     <div class="card">
                         <img class="card-img-top" src="imagenes/img-gen.png" alt="Hogar">
                         <div class="card-body">
@@ -41,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-6">
                     <div class="card">
                         <img class="card-img-top" src="imagenes/img-gen.png" alt="Vida">
                         <div class="card-body">
@@ -49,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div> --> 
         </div>
     </section>
     <!--Fin Coberturas-->
