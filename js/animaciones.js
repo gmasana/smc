@@ -29,7 +29,7 @@ function coberturaFondo() {
     }
     
 }
-coberturaFondo();
+docuemnt.onload = coberturaFondo();
 //
 //js + jquery 1.9.1 - funcion timer up
 

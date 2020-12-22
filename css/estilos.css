@@ -101,9 +101,15 @@ h1.slogan{
     height: 200px;
 }
 @media screen and (max-width: 576px){
-    h1.slogan {font-size: 50px;}
+    h1.slogan {font-size: 40px;}
     p.icon{font-size: 50px;}
     .space {display: none;}
+}
+@media screen and (max-height: 500px){
+    h1.slogan {
+        font-size: 40px;
+        overflow: hidden;
+    }
 }
 .err404 {
     background-image: url(../imagenes/fondo_azul.png);
@@ -220,6 +226,7 @@ td {
 .cobertura{
     background-image: url(../imagenes/img-gen.png);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: 50% 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-color: whitesmoke;

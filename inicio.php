@@ -1,7 +1,7 @@
 <main>
     <div class="main_cont container-fluid">
         <div class="container">
-            <h1 class="text-center text-color-2 pt-5 slogan d-block">Productores Asesores de Seguros</h1>
+            <h1 class="text-center text-color-2 pt-5 slogan d-block text-uppercase font-weight-bold">Productores Asesores de Seguros</h1>
         </div>
         <section class="space"></section>
         <div class="container">
@@ -34,43 +34,24 @@
                     </tr>
                 </table>
             </div>        
-           <!-- <div class="row">
-                <div class="col-6">
-                    <div class="card">
-                        <img class="card-img-top" src="imagenes/img-gen.png" alt="Autos">
-                        <div class="card-body">
-                            <h6 class="card-title text-center">Autos</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="card">
-                        <img class="card-img-top" src="imagenes/img-gen.png" alt="ART">
-                        <div class="card-body">
-                            <h6 class="card-title text-center">Art</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="card">
-                        <img class="card-img-top" src="imagenes/img-gen.png" alt="Hogar">
-                        <div class="card-body">
-                            <h6 class="card-title text-center">Hogar</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="card">
-                        <img class="card-img-top" src="imagenes/img-gen.png" alt="Vida">
-                        <div class="card-body">
-                            <h6 class="card-title text-center">Vida</h6>
-                        </div>
-                    </div>
-                </div>
-            </div> --> 
         </div>
     </section>
     <!--Fin Coberturas-->
+    <!--Branding-->
+    <section>
+        <div class="container-fluid bg-color-2">
+            <div class="row">
+                <div class="col text-color-1">
+                    <h3>¿Sabías que ...?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laborum mollitia velit commodi sint consequatur, quos voluptatibus obcaecati tempore ducimus, soluta alias vel? Blanditiis labore praesentium deserunt ipsam id. Delectus!</p>
+                </div>
+                <div class="col">
+                    <img src="imagenes/img-gen.png" style="max-height:300px;" alt="Foto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin Branding-->
     <div class="d-flex flex-wrap justify-content-center">
             <div class="container">
                 <div class="card bk-color-2 square mx-auto d-block">
