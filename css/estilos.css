@@ -28,9 +28,39 @@ a.link:hover{
     text-decoration:none;
 } 
 .wt-shadowed{
-    background-color: #ecf0f1;
+    background-color: #224a95;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.return{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 0%;
+    right: 0%;
+    border-radius: 50px;
+    background:#ecf0f1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    z-index: 5;
+    text-align:center;
 } 
+.return p{
+    line-height: 50px;
+}
+.return a{
+    text-decoration: none;
+    display: block;
+    line-height: 48px;
+    color:#224a95;
+    transition: ease-in 0.4s;
+}
+.return a:hover{
+    color: #2f67d0;
+}
+.return a img{
+    width: 20px;
+    height: 20px;
+}
 /* Start NavBar */
 .navlink{
     list-style: none;
@@ -97,13 +127,11 @@ main{
 h1.slogan{
     font-size: 60px;
 }
-.space{
-    height: 200px;
-}
+
 @media screen and (max-width: 576px){
     h1.slogan {font-size: 40px;}
     p.icon{font-size: 50px;}
-    .space {display: none;}
+    .main_cont .container .botonera{line-height: 80px !important;}
 }
 @media screen and (max-height: 500px){
     h1.slogan {
@@ -140,6 +168,37 @@ h1.slogan{
     height: auto;
     background-position: 50% 0;
 }
+.main_cont .container .botonera{
+    line-height: 150px;
+}
+
+div div .img-cobertura-1{
+    width: 80px;
+    height:40px;
+}
+div div .img-cobertura-2{
+    width: 180px;
+    height: 40px;
+}
+div div .img-cobertura-3{
+    width: 40px;
+    height: 40px;
+}
+@media screen and (max-height:576px){
+    div div .img-cobertura-1{
+        width: 40px;
+        height:20px;
+    }
+    div div .img-cobertura-2{
+        width: 90px !important;
+        height: 20px !important;
+    }
+    div div .img-cobertura-3{
+        width: 20px;
+        height: 20px;
+    }
+}
+
 .cont_form{
     margin: 0 10%;
     background-color: #ecf0f1;
@@ -224,10 +283,10 @@ td {
 
 /* SLIDESHOW de Coberturas*/
 .cobertura{
-    background-image: url(../imagenes/img-gen.png);
+    /*background-image: url(../imagenes/img-gen.png);*/
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-color: whitesmoke;
     border-radius: 12px;
@@ -238,10 +297,14 @@ td {
     background-size: cover;
     background-position: 50% 0;
 }
-.auto{background-image:url(../imagenes/auto.jpg)}
-.vida{background-image:url(../imagenes/vida.jpg)}
-.hogar{background-image:url(../imagenes/hogar.jpg)}
-.art{background-image:url(../imagenes/art.jpg)}
+.auto{background-image:url(../imagenes/auto-cb.jpg)}
+.vida{background-image:url(../imagenes/vida-cb.jpg)}
+.hogar{background-image:url(../imagenes/hogar-cb-2.jpg)}
+.art{background-image:url(../imagenes/art-cb.jpg)}
+tr td div.cobertura{
+    font-weight:bolder;
+    text-transform: uppercase;
+}
 .slideshow-responsive{
     height: 21vh;
 }

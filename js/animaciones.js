@@ -8,28 +8,7 @@ function openClose()
         nav.className = "navlink";
       }
 }
-//Cambiar imagen de fondo según cobertura
-function coberturaFondo() {
-    var cobertura = document.getElementsByClassName("cobertura");
-    for (let i = 0; i < cobertura.length; i++) {
-        switch (cobertura[i].innerHTML) {
-            case Autos:
-                cobertura.className += " auto"
-                break;
-            case ART:
-                cobertura.className += " art"
-                break;
-            case Vida:
-               cobertura.className += " vida"
-                break;
-            case Hogar:
-                cobertura.className += " hogar"
-                break; 
-        }
-    }
-    
-}
-docuemnt.onload = coberturaFondo();
+
 //
 //js + jquery 1.9.1 - funcion timer up
 
@@ -93,16 +72,16 @@ docuemnt.onload = coberturaFondo();
 //});
 
 $(window).scroll(function() {
-    if (document.body.scrollTop > 360 || document.documentElement.scrollTop > 360) {
+    if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
         $('.timer').countTo({
             from: 1,
             to: 20,
             speed: 1000,
             refreshInterval: 50,
-            onComplete: function(value) {
+            /*onComplete: function(value) {
                 console.debug(this);
             }
-            });
+            });*/
             
     }
 });    
