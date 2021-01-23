@@ -78,10 +78,10 @@ $(window).scroll(function() {
             to: 20,
             speed: 1000,
             refreshInterval: 50,
-            /*onComplete: function(value) {
+            onComplete: function(value) {
                 console.debug(this);
             }
-            });*/
+            });
             
     }
 });    
