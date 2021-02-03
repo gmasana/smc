@@ -23,6 +23,7 @@ if( $_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST["nom_ape"];
     $telefono = $_POST["telefono"];
     $email = $_POST["email"];
+    $riesgo = $_POST["riesgo"];
     $comentarios = $_POST["comentarios"];
 
     $mail = new PHPMailer\PHPMailer\PHPMailer;
@@ -37,15 +38,16 @@ if( $_SERVER["REQUEST_METHOD"] == "POST") {
     $mail ->Password = "SandraSmc_13";
 
     $mail ->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;//Tipo de encriptacion TLS
+    $mail ->isHTML();
 
-    $mail ->Body = "<h1>Consulta desde el Sitio</h1>\r\n"; //Cuerpo del mensaje en HTML, el AltBody es sin etiquetas
+    $mail ->Body = "<h1>Detalle del siniestro</h1>\r\n"; //Cuerpo del mensaje en HTML, el AltBody es sin etiquetas
     $mail ->Body.= "<p><strong>Nombre:</strong> " . $nombre . "</p>";
     $mail ->Body.= "<p><strong>E-Mail:</strong> " . $email . "</p>";
     $mail ->Body.= "<p><strong>Teléfono:</strong> " . $telefono . "</p>";
+    $mail ->Body.= "<p><strong>Riesgo:</strong> " . $riesgo . "</p>";
     $mail ->Body.= "<p><strong>Mensaje:</strong></p>";
-    $mail ->isHTML();
     $mail ->Body.= "<blockquote>" . $comentarios . "</blockquote>";
-    $mail ->Subject = "Consulta desde el sitio";
+    $mail ->Subject = "Siniestro - " . $nombre;
     $mail ->addAddress("asesores.smc@gmail.com", "Email de pruebas");//A quien envio el mail
     $mail ->addAddress("gonzalomasana95@gmail.com", "Email de pruebas");//A quien envio como 2do destinatario
     $mail ->addReplyTo($email, $nombre);
@@ -56,5 +58,3 @@ if( $_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 ?>
-
-

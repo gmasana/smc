@@ -10,17 +10,12 @@
         </section>
         <!--Redes sociales-->
         <div class="container">
-            <p class="text-center text-color-1">
+            <p class="text-center text-color-1 mb-0 pb-2">
                 <a href="https://www.instagram.com/asegurar.smc/" class ="text-decoration-none" target="_blank">Encontranos en Instagram     
                     <i class="fab fa-instagram"></i>
                 </a>
             </p>
         </div>
-        
-        <p class="text-center mini-tx m-0">
-            <a class="light text-decoration-none" href="#inicio">Volver al inicio</a>
-        </p>
-             
     </div>    
     <div class="clearfix"></div>
 </footer>    

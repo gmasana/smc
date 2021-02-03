@@ -72,11 +72,11 @@ function openClose()
 //});
 
 $(window).scroll(function() {
-    if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
+    if (document.body.scrollTop > 360 || document.documentElement.scrollTop > 360) {
         $('.timer').countTo({
             from: 1,
             to: 20,
-            speed: 1000,
+            speed: 5000,
             refreshInterval: 50,
             onComplete: function(value) {
                 console.debug(this);

@@ -201,9 +201,14 @@ div div .img-cobertura-3{
 
 .cont_form{
     margin: 0 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #ecf0f1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  
+}
+@media screen and (max-width: 576px){
+    .cont_form{margin: 0 5%;}
 }
 .form_datos > input, .form_datos >select {
     display: inline-block;
@@ -314,8 +319,5 @@ tr td div.cobertura{
 
 /* FIN SLIDESHOW de Coberturas*/
 
-.mini-tx{
-    font-size: 8px;
-}
 
     

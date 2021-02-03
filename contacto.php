@@ -1,7 +1,7 @@
 <div class="container-fluid bg-color-1 pt-4 pb-4">
    
     <div class="cont_form">
-        <h2 class="text-color-1" style="margin-left: 10%;">Dejanos tu consulta</h2>
+        <h2 class="text-color-1 mb-3" style="margin-left: 10%;">Dejanos tu consulta</h2>
         <form action="mail/mail.php" class="form_datos" method="post">
             
             <input type="text" name="nom_ape" required placeholder="Nombre y Apellido" id="inputselected"><br>
