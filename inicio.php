@@ -56,7 +56,7 @@
     <div class="d-flex flex-wrap justify-content-center">
             <div class="container mt-3">
                 <div class="card bk-color-2 square mx-auto d-block">
-                    <p class="icon text-center text-color-1 p-2 mt-2">+<span class="timer"></span></p>
+                    <p class="icon text-center text-color-1 p-2 mt-2">+<span id="timer" class="timer"></span></p>
                 </div>    
             </div>
             <p class="icon text-color-2">Aseguradoras</p>

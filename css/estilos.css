@@ -199,6 +199,7 @@ div div .img-cobertura-3{
     }
 }
 
+/* FORMULARIOS */
 .cont_form{
     margin: 0 10%;
     padding-top: 15px;
@@ -253,6 +254,35 @@ input[type=submit]:hover{
     color: #224a95;
     border: 1px solid #224a95;
 }
+.rta {
+	border: solid 1px;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+    margin: 2em 0;
+}
+.rta-0x001,
+.rta-0x002,
+.rta-0x003,
+.rta-0x005 {
+	background: #FF5722;
+    border-color: #F00;
+    color: #FFF;
+}
+.rta-0x004 {
+	background: rgb(214, 243, 180);
+    border-color: #2E7D32;
+    color: #2e7d32;
+}
+#gracias{
+    height: inherit;
+    padding: 20%;
+}
+#gracias h3 {
+    vertical-align: middle;
+    
+}
+/* FIN FORMULARIOS */
 .sec_cont{
     display: flex;
     flex-wrap: wrap;

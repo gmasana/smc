@@ -71,8 +71,8 @@ function openClose()
 //    });
 //});
 
-$(window).scroll(function() {
-    if (document.body.scrollTop > 360 || document.documentElement.scrollTop > 360) {
+$(document).scroll(function() {
+    if (document.body.scrollTop > 1200) {
         $('.timer').countTo({
             from: 1,
             to: 20,

@@ -1,5 +1,10 @@
 <div class="container-fluid bg-color-1 pt-4 pb-4">
     <div class="cont_form">
+        <?php
+        if (isset( $_GET["rta"]) ) {
+            echo MostrarMensaje( $_GET["rta"] );
+        }
+        ?>
         <h2 class="text-color-1" style="margin-left: 10%;">Contanos que te pasó,</h2>
         <h4 class="text-color-1" style="margin-left: 10%;">Nosotros nos ocupamos.</h4>
         <form action="mail/mail-s.php" class="form_datos" method="post">

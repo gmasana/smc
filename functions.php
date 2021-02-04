@@ -41,7 +41,10 @@
 
 			case '0x005':
 				$mensaje = "Ocurrio un error, intente de nuevo";
-			break;						
+			break;		
+			case '0x006':
+				$mensaje = "Seleccione el tipo de riesgo";
+			break;					
 		}
 		return "<p class='rta rta-".$cod."'>".$mensaje."</p>";
 	}
