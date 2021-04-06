@@ -9,6 +9,24 @@ function openClose()
       }
 }
 
+function showNotShow(){
+
+    var pic = document.getElementById("imgh");
+    var pic = document.getElementById("imgv");
+    if(window.innerWidth<=768 && window.innerWidth>425){
+        imgh.className += " not-show";
+        imgv.className = "col-sm-5 px-0";
+    } else {
+        imgh.className = "col-sm-6 px-0";
+        imgv.className = "col-sm-5 px-0 not-show";
+    }
+    
+}
+
+document.onload = showNotShow();
+document.onresize = showNotShow();
+
+
 //
 //js + jquery 1.9.1 - funcion timer up
 

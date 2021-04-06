@@ -20,7 +20,6 @@
     <div class="clearfix"></div>
 </footer>    
     <script src="js/animaciones.js"></script>
-    <script src="js/load.js"></script>
 </body>
 
 </html>

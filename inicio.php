@@ -41,13 +41,16 @@
     <section>
         <div class="container-fluid bg-color-2">
             <div class="row">
-                <div class="col text-color-1">
-                    <h3>¿Sabías que ...?</h3>
+                <div class="col-sm text-color-1">
+                    <h3 class="mt-2">¿Sabías que ...?</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laborum mollitia velit commodi sint consequatur, quos voluptatibus obcaecati tempore ducimus, soluta alias vel? Blanditiis labore praesentium deserunt ipsam id. Delectus!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, voluptatem commodi. Fuga minus animi facere reprehenderit totam, provident accusamus eaque est dolores quod consequatur earum iusto officiis repudiandae, autem hic.</p>
                 </div>
-                <div class="col">
-                    <img src="imagenes/img-gen.png" style="float:right;" alt="Foto">
+                <div id="imgh" class="col-sm-6 px-0">
+                    <img src="imagenes/cliente-satisfecho.jpg" style="width:100%;height:auto;" alt="Foto">
+                </div>
+                <div id="imgv" class="col-sm-5 px-0 not-show">
+                    <img src="imagenes/cliente-satisfecho-v.jpg" style="width:100%;height:auto;" alt="Foto">
                 </div>
             </div>
         </div>
